@@ -1,4 +1,16 @@
+<h1> Phone-Checker </h1>
 
-# Run
+Upload a photo and find out if theres a phone in it!
 
-`npm start`
+Link to project: 
+
+
+
+Tech used: Machine Learning, HTML, JavaScript, Node.js, Express, MongoDB, 
+
+
+
+
+
+Lessons Learned:
+Machine Learning is very versatile and has endless potential! 
