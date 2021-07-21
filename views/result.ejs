@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PHONE CHECK</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+     
+        <% if(locals.count > 0) { %>
+            <img src='<%= img%>' alt='CELL PHONE'> 
+            <h1>CELL PHONE FOUND!!</h1>
+        <% }else { %>
+            <img src='<%= img%>' alt='NO CELL PHONE'> 
+            <h1>NO CELL PHONE FOUND</h1>
+        <% } %>
+ 
+    <form action="/" enctype="multipart/form-data" method="post">
+      <!-- <div class="container2">
+        <div class="laya-please layer-7">
+        </div>
+        <div class="laya-please layer-8">
+        </div>
+    </div> -->
+    <label for="button" class="custom-file-upload">
+      Select File
+   </label>
+     <input id='button' type="file" name="file-to-upload">
+     <input id='button1' type="submit" value="Upload">
+   </form> 
+    </form>  
+  </body>
+</html>
