@@ -6,7 +6,7 @@ Link to project:
 
 
 
-Tech used: Machine Learning, HTML, JavaScript, Node.js, Express, MongoDB, 
+Tech used: Machine Learning, HTML, JavaScript, Node.js, Express  
 
 
 
